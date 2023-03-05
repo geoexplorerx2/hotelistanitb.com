@@ -14,4 +14,6 @@ use App\Http\Controllers\sendFormController;
 |
 */
 
-Route::get('/', [sendFormController::class,'index']);
+Route::GET('/', [sendFormController::class,'index']);
+Route::POST('/contactform/store', [sendFormController::class,'store'])->name('contact.store');
+Route::GET('/thank-you', [sendFormController::class,'thanks'])->name('contact.thanks');

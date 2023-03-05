@@ -17,24 +17,26 @@
                 </div>
 
                 <div class="col-12">
-                    <form class="form" autocomplete="off">
+                    <form action="{{ route('contact.store') }}" class="form" method="POST">
+                        @csrf
                         <div class="row">
                             <div class="col-12">
                                 <label>
                                     <span>Name, Surname</span>
-                                    <input type="text" name="fullname">
+                                    <input type="text" name="fullname" required>
                                 </label>
                             </div>
                             <div class="col-12">
                                 <label>
                                     <span>E-Mail Address</span>
-                                    <input type="email" name="email">
+                                    <input type="email" name="email" required>
                                 </label>
                             </div>
                             <div class="col-12">
                                 <label>
                                     <span>Phone Number</span>
-                                    <input type="number" name="phone" class="phone">
+                                    <input type="text" id="phone" name="phone" value="" class="phone" required>
+                                    <input type="hidden" id="country" name="country">
                                 </label>
                             </div>
                             <div class="col-12">
@@ -44,7 +46,7 @@
                                 </label>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-full">
+                                <button class="btn btn-full" type="submit">
                                     <strong>Send Form</strong>
                                     <svg width="20" height="20" fill="none" viewBox="0 0 20 20">
                                         <path fill="var(--color-white)"

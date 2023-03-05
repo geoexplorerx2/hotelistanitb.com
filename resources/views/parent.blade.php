@@ -17,8 +17,13 @@
 <body>
     @yield('content')
     {{--  -------------------------------Script-Links---------------------------------------  --}}
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/intlTelInput.min.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/intlTelInput.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/formValidation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.2-dev/js/framework/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/booking.js') }}"></script>
     {{--  -------------------------------Script-Extensions---------------------------------------  --}}
     @include('scriptsComponent.scripts')
 </body>
