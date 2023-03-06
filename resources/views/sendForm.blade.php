@@ -1,6 +1,7 @@
 @extends('parent')
 @section('title', 'Hotelistan ITB')
 @section('content')
+
     <div class="container-fluid">
         <div class="container">
             <div class="row align-items-center">
@@ -57,11 +58,9 @@
                         </div>
                     </form>
                 </div>
-
                 <div class="col-12 text-center">
                     <h2 class="title">Our Brands</h2>
                 </div>
-
             </div>
         </div>
     </div>
@@ -75,7 +74,7 @@
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="brand" target="_blank">
+                                <a href="https://arpanumedical.com" class="brand" target="_blank">
                                     <img src="assets/images/logos/arpanu-medical.svg" width="150">
                                     <p>Arpanu Medical is a certified Medical Travel Facilitator that successfully
                                         incorporates patients treatments, travel and hotel accommodation requirements all
@@ -83,7 +82,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="brand" target="_blank">
+                                <a href="https://catmamescithamami.com" class="brand" target="_blank">
                                     <img src="assets/images/logos/catmamescithamami.svg" width="150">
                                     <p>Built in the 16’th century by the greatest Ottoman architect Mimar Sinan, Çatma
                                         Mescit Hammam offers services ranging from Hammam Rituals, Spa Classics to Far East
@@ -91,7 +90,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="brand" target="_blank">
+                                <a href="https://dentfixturkey.com" class="brand" target="_blank">
                                     <img src="assets/images/logos/dentfix.svg" width="120">
                                     <p>Dentfix is a Dental Clinic established in Istanbul, specialised in dental treatments
                                         ranging from dental implants, veneers to crowns, smile makeovers and laser teeth
@@ -99,21 +98,21 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="brand" target="_blank">
+                                <a href="https://novaplazahotels.com" class="brand" target="_blank">
                                     <img src="assets/images/logos/novaplazahotels.svg" width="150">
                                     <p>With a total number of 7 hotels and a capacity of 856 rooms, Nova Plaza Hotels offers
                                         its guests a comfortable accommodation experience in Istanbul, Turkey.</p>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="brand" target="_blank">
+                                <a href="https://vipser.com" class="brand" target="_blank">
                                     <img src="assets/images/logos/vipser.svg" width="150">
                                     <p>Vipser is a licensed travel agency, with more than 12 years of experience in ground
                                         handling services and incoming tourist operations.</p>
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="javascript:;" class="brand" target="_blank">
+                                <a href="https://bookperfect.com" class="brand" target="_blank">
                                     <img src="assets/images/logos/bookperfect.svg" width="120">
                                     <p>Book Perfect is an online travel agency to help you plan the perfect trip. Book
                                         Perfect will help you find the best deals on flights, hotels, car rentals, airport

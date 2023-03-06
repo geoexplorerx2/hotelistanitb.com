@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5,h6, .title, .title span {font-size: 24px; line-height: 1; color: 
 .content-brands {position: relative;}
 .content-brands:after {background-color: var(--color-white); border-radius: calc(var(--border-radius) * 2) calc(var(--border-radius) * 2) 0 0; position: absolute; top: 0; right: 0; bottom: 0; left: 0; content: ''; z-index: -1;}
 .content-brands .brand {text-align: center; display: flex; flex-direction: column; gap: 2rem; justify-content: center; align-items: center; padding-bottom: 5rem;}
+.content-brands .brand img {height: 100px; object-fit: contain;}
 
 .swiper-pagination {bottom: 0!important;}
 .swiper-pagination span {border-radius: 5px; background-color: var(--color-01);}
