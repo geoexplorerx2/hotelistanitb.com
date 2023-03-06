@@ -8,6 +8,7 @@
     {{--  -------------------------------Style-Links---------------------------------------  --}}
     <link href="{{ asset('assets/css/default-min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/theme.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"

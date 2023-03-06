@@ -1,5 +1,5 @@
 @extends('parent')
-@section('title', 'Hotelistan.com')
+@section('title', 'Hotelistan ITB')
 @section('content')
     <div class="container-fluid">
         <div class="container">
